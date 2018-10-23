@@ -1,4 +1,5 @@
 ﻿using System;
+using sistemaPizzaria.Class;
 
 namespace Senai.Projetos.Sistema.Pizzaria
 {
@@ -6,6 +7,8 @@ namespace Senai.Projetos.Sistema.Pizzaria
     {
         static void Main(string[] args)
         {
+            Usuario[] usuario = new Usuario[100];
+            Produto[] produto = new Produto[100];
             int menu;
 
             do{
