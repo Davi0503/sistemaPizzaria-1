@@ -31,6 +31,7 @@ namespace Senai.Projetos.Sistema.Pizzaria
 
                     //Efetuar login
                     case 2:{
+                        MenuLogin(usuario);
                         break;
                     }
 
@@ -66,6 +67,14 @@ namespace Senai.Projetos.Sistema.Pizzaria
                 Console.WriteLine("[2] - Efetuar login");
                 Console.WriteLine("[3] - Listar usuários");
                 Console.WriteLine("[9] - Sair");
+        }
+
+        static void MenuLogin(Usuario usuario)
+        {
+            Console.WriteLine("Informe o seu email: ");
+            usuario.Email = Console.ReadLine();
+            Console.WriteLine("Informe a sua senha: ");
+            usuario.Senha = Console.ReadLine();
         }
     }
     //FIM DA CLASSE PROGRAM
