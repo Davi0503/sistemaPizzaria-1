@@ -12,11 +12,7 @@ namespace Senai.Projetos.Sistema.Pizzaria
             int menu;
 
             do{
-                Console.WriteLine("Selecione opção desejada");
-                Console.WriteLine("[1] - Cadastrar usuário");
-                Console.WriteLine("[2] - Efetuar login");
-                Console.WriteLine("[3] - Listar usuários");
-                Console.WriteLine("[9] - Sair");
+                ExibirMenuPrincipal();
                 menu = int.Parse(Console.ReadLine());
 
                 switch (menu){
@@ -53,5 +49,17 @@ namespace Senai.Projetos.Sistema.Pizzaria
             } while (menu != 9);
 
         }
+        /// <summary>
+        /// Exibindo o Menu Principal da Aplicação
+        /// </summary>
+        static void ExibirMenuPrincipal()
+        {
+                Console.WriteLine("Selecione opção desejada");
+                Console.WriteLine("[1] - Cadastrar usuário");
+                Console.WriteLine("[2] - Efetuar login");
+                Console.WriteLine("[3] - Listar usuários");
+                Console.WriteLine("[0] - Sair");
+        }
     }
+    //FIM DA CLASSE PROGRAM
 }
