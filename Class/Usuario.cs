@@ -30,6 +30,7 @@ namespace sistemaPizzaria.Class
             {
                 Console.WriteLine("Digite um email válido");
             }
+
         }
 
         /// <summary>
@@ -45,6 +46,24 @@ namespace sistemaPizzaria.Class
 
                 Console.WriteLine("Digite a sua senha");
                 Senha = Console.ReadLine();
+        } 
+
+        /// <summary>
+        /// Verifica se a senha possui mais de 6 digitos
+        /// </summary>
+        /// <param name="senha"></param>
+        public void ValidarSenha(string senha)
+        {
+            if(senha.Length >= 6)
+            {
+                Console.WriteLine("Login Efetuado com sucesso! ");
+            }
+            else
+            {
+                Console.WriteLine("Senha inválida! ");
+            }
+        }
+
         #endregion
     }
 }
