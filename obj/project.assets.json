@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\40256701865\\.nuget\\packages\\": {},
+    "C:\\Users\\45346351841\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\40256701865\\Documents\\projects\\Senai.Projetos.Sistema.Pizzaria\\Senai.Projetos.Sistema.Pizzaria.csproj",
+      "projectUniqueName": "c:\\Users\\45346351841\\Desktop\\Senai.Csharp\\sistemaPizzaria\\Senai.Projetos.Sistema.Pizzaria.csproj",
       "projectName": "Senai.Projetos.Sistema.Pizzaria",
-      "projectPath": "c:\\Users\\40256701865\\Documents\\projects\\Senai.Projetos.Sistema.Pizzaria\\Senai.Projetos.Sistema.Pizzaria.csproj",
-      "packagesPath": "C:\\Users\\40256701865\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\40256701865\\Documents\\projects\\Senai.Projetos.Sistema.Pizzaria\\obj\\",
+      "projectPath": "c:\\Users\\45346351841\\Desktop\\Senai.Csharp\\sistemaPizzaria\\Senai.Projetos.Sistema.Pizzaria.csproj",
+      "packagesPath": "C:\\Users\\45346351841\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\45346351841\\Desktop\\Senai.Csharp\\sistemaPizzaria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\40256701865\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\45346351841\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

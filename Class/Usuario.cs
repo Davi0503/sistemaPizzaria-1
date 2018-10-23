@@ -8,6 +8,7 @@ namespace sistemaPizzaria.Class
         public int ID { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
+        public string Senha { get; set; }
         public DateTime DataCriacao { get; set; }
         #endregion
 
@@ -19,9 +20,9 @@ namespace sistemaPizzaria.Class
         /// </summary>
         /// //Email informado pelo usuário
         /// <param name="email"></param>
-        public void ValidarEmail(string email)
+        public void ValidarEmail(string Email)
         {
-            if(email.Contains("@"))
+            if(Email.Contains("@"))
             {
                 Console.WriteLine("Email válido!");
             }
@@ -29,7 +30,21 @@ namespace sistemaPizzaria.Class
             {
                 Console.WriteLine("Digite um email válido");
             }
-        } 
+        }
+
+        /// <summary>
+        /// Método para cadastrar o email
+        /// </summary>
+        public void CadastrarUsuario(Usuario usuario){
+                Console.WriteLine("Digite o seu nome");
+                Nome = Console.ReadLine();
+
+                Console.WriteLine("Digite o seu Email");
+                Email = Console.ReadLine();
+                usuario.ValidarEmail(Email);
+
+                Console.WriteLine("Digite a sua senha");
+                Senha = Console.ReadLine();
         #endregion
     }
 }
