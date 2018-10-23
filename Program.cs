@@ -22,11 +22,10 @@ namespace Senai.Projetos.Sistema.Pizzaria
                     
                     //Cadastrar usuario
                     case 1:{
-                        for (int i = 0; i < contUsuario; i++){
-                            usuario[i] = new Usuario();
-                            usuario[i].CadastrarUsuario(usuario[i]);
+                            usuario[contUsuario] = new Usuario();
+                            usuario[contUsuario].CadastrarUsuario(usuario[contUsuario]);
                             contUsuario++;
-                        }
+    
                         break;
                     }
 

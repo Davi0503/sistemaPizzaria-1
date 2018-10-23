@@ -20,15 +20,17 @@ namespace sistemaPizzaria.Class
         /// </summary>
         /// //Email informado pelo usuário
         /// <param name="email"></param>
-        public void ValidarEmail(string Email)
+        public bool ValidarEmail(string Email)
         {
             if(Email.Contains("@"))
             {
                 Console.WriteLine("Email válido!");
+                return true;
             }
             else
             {
                 Console.WriteLine("Digite um email válido");
+                return false;
             }
 
         }
@@ -43,24 +45,38 @@ namespace sistemaPizzaria.Class
                 Console.WriteLine("Digite o seu Email");
                 Email = Console.ReadLine();
                 usuario.ValidarEmail(Email);
+                bool validarEmail = ValidarEmail(Email);
+                while(!validarEmail){
+                    Email = Console.ReadLine();
+                    usuario.ValidarEmail(Email);
+                }
 
                 Console.WriteLine("Digite a sua senha");
                 Senha = Console.ReadLine();
+                usuario.ValidarSenha(Senha);
+                bool validarSenha = ValidarSenha(Senha);
+                while(!validarSenha){
+                    Senha = Console.ReadLine();
+                    usuario.ValidarSenha(Senha);
+                }
+
         } 
 
         /// <summary>
         /// Verifica se a senha possui mais de 6 digitos
         /// </summary>
         /// <param name="senha"></param>
-        public void ValidarSenha(string senha)
+        public bool ValidarSenha(string senha)
         {
             if(senha.Length >= 6)
             {
                 Console.WriteLine("Login Efetuado com sucesso! ");
+                return true;
             }
             else
             {
                 Console.WriteLine("Senha inválida! ");
+                return false;
             }
         }
 
