@@ -9,6 +9,7 @@ namespace Senai.Projetos.Sistema.Pizzaria
         {
             Usuario[] usuario = new Usuario[100];
             Produto[] produto = new Produto[100];
+            int contUsuario = 0;
             int menu;
 
             do{
@@ -21,6 +22,11 @@ namespace Senai.Projetos.Sistema.Pizzaria
                     
                     //Cadastrar usuario
                     case 1:{
+                        for (int i = 0; i < contUsuario; i++){
+                            usuario[i] = new Usuario();
+                            usuario[i].CadastrarUsuario(usuario[i]);
+                            contUsuario++;
+                        }
                         break;
                     }
 
