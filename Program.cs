@@ -60,7 +60,7 @@ namespace Senai.Projetos.Sistema.Pizzaria
                 Console.WriteLine("[1] - Cadastrar usuário");
                 Console.WriteLine("[2] - Efetuar login");
                 Console.WriteLine("[3] - Listar usuários");
-                Console.WriteLine("[0] - Sair");
+                Console.WriteLine("[9] - Sair");
         }
     }
     //FIM DA CLASSE PROGRAM
