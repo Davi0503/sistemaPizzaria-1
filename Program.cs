@@ -12,7 +12,9 @@ namespace Senai.Projetos.Sistema.Pizzaria
             int menu;
 
             do{
+                //Chamada para o Menu Principal
                 ExibirMenuPrincipal();
+                //Recebendo a opção escolhida pelo usuário
                 menu = int.Parse(Console.ReadLine());
 
                 switch (menu){
