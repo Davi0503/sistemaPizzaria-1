@@ -9,3 +9,14 @@ C:\Users\40256701865\Documents\projects\Senai.Projetos.Sistema.Pizzaria\obj\Debu
 C:\Users\40256701865\Documents\projects\Senai.Projetos.Sistema.Pizzaria\obj\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.AssemblyInfo.cs
 C:\Users\40256701865\Documents\projects\Senai.Projetos.Sistema.Pizzaria\obj\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.dll
 C:\Users\40256701865\Documents\projects\Senai.Projetos.Sistema.Pizzaria\obj\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.pdb
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\bin\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.deps.json
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\bin\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.runtimeconfig.json
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\bin\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.runtimeconfig.dev.json
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\bin\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.dll
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\bin\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.pdb
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\obj\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.csprojAssemblyReference.cache
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\obj\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.csproj.CoreCompileInputs.cache
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\obj\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.AssemblyInfoInputs.cache
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\obj\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.AssemblyInfo.cs
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\obj\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.dll
+C:\Users\45346351841\Desktop\Senai.Csharp\sistemaPizzaria\obj\Debug\netcoreapp2.1\Senai.Projetos.Sistema.Pizzaria.pdb
